@@ -14717,7 +14717,7 @@
     "documentation": "https://docs.shinobi.video/",
     "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/shinobi.webp",
     "updateable": true,
-    "privileged": false,
+    "privileged": true,
     "has_arm": true,
     "is_dev": false,
     "execute_in": [
