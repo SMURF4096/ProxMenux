@@ -795,6 +795,40 @@
     "os": ""
   },
   {
+    "name": "Anki Sync Server",
+    "slug": "anki-sync-server",
+    "desc": "The official self-hosted sync server for Anki flashcards, suitable for individual and family use.",
+    "script": "ct/anki-sync-server.sh",
+    "script_url": "https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/anki-sync-server.sh",
+    "script_url_mirror": "https://git.community-scripts.org/community-scripts/ProxmoxVE/raw/branch/main/ct/anki-sync-server.sh",
+    "type": "lxc",
+    "type_id": "nm9bra8mzye2scg",
+    "categories": [
+      "scriptcat00012"
+    ],
+    "category_names": [
+      "Documents & Notes"
+    ],
+    "notes": [],
+    "port": 8080,
+    "website": "https://apps.ankiweb.net/",
+    "documentation": "https://docs.ankiweb.net/sync-server.html",
+    "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/anki-sync-server.webp",
+    "updateable": true,
+    "privileged": false,
+    "has_arm": true,
+    "is_dev": true,
+    "execute_in": [
+      "lxc"
+    ],
+    "config_path": "",
+    "default_credentials": {
+      "username": "anki",
+      "password": "Generated during installation"
+    },
+    "os": ""
+  },
+  {
     "name": "Anytype Server",
     "slug": "anytype-server",
     "desc": "Anytype is a local-first, privacy-focused alternative to Notion. This script deploys the any-sync-bundle which provides a self-hosted sync server for Anytype clients with external MongoDB and Redis Stack.",
@@ -2151,6 +2185,36 @@
     "is_dev": false,
     "execute_in": [
       "pve"
+    ],
+    "config_path": "",
+    "os": ""
+  },
+  {
+    "name": "Castopod",
+    "slug": "castopod",
+    "desc": "Castopod is a free and open-source podcast hosting platform with Podcasting 2.0, analytics and ActivityPub federation features.",
+    "script": "ct/castopod.sh",
+    "script_url": "https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/castopod.sh",
+    "script_url_mirror": "https://git.community-scripts.org/community-scripts/ProxmoxVE/raw/branch/main/ct/castopod.sh",
+    "type": "lxc",
+    "type_id": "nm9bra8mzye2scg",
+    "categories": [
+      "scriptcat00013"
+    ],
+    "category_names": [
+      "Media & Streaming"
+    ],
+    "notes": [],
+    "port": 80,
+    "website": "https://castopod.org/",
+    "documentation": "https://docs.castopod.org/main/en/",
+    "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/castopod.webp",
+    "updateable": true,
+    "privileged": false,
+    "has_arm": true,
+    "is_dev": true,
+    "execute_in": [
+      "lxc"
     ],
     "config_path": "",
     "os": ""
@@ -3874,6 +3938,36 @@
       "pve"
     ],
     "config_path": "/opt/docmost/.env",
+    "os": ""
+  },
+  {
+    "name": "Docspell",
+    "slug": "docspell",
+    "desc": "Docspell is a document management system that organizes, processes, OCRs and indexes documents from scanners, email and file uploads.",
+    "script": "ct/docspell.sh",
+    "script_url": "https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/docspell.sh",
+    "script_url_mirror": "https://git.community-scripts.org/community-scripts/ProxmoxVE/raw/branch/main/ct/docspell.sh",
+    "type": "lxc",
+    "type_id": "nm9bra8mzye2scg",
+    "categories": [
+      "scriptcat00012"
+    ],
+    "category_names": [
+      "Documents & Notes"
+    ],
+    "notes": [],
+    "port": 7880,
+    "website": "https://docspell.org/",
+    "documentation": "https://docspell.org/docs/",
+    "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/docspell.webp",
+    "updateable": true,
+    "privileged": false,
+    "has_arm": true,
+    "is_dev": true,
+    "execute_in": [
+      "lxc"
+    ],
+    "config_path": "",
     "os": ""
   },
   {
@@ -7092,7 +7186,7 @@
     "updateable": true,
     "privileged": false,
     "has_arm": false,
-    "is_dev": true,
+    "is_dev": false,
     "execute_in": [
       "lxc"
     ],
@@ -10040,6 +10134,40 @@
     "os": ""
   },
   {
+    "name": "Mumble",
+    "slug": "mumble",
+    "desc": "Mumble is an open-source, encrypted, low-latency voice chat server for communities, gaming, and teams.",
+    "script": "ct/mumble.sh",
+    "script_url": "https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/mumble.sh",
+    "script_url_mirror": "https://git.community-scripts.org/community-scripts/ProxmoxVE/raw/branch/main/ct/mumble.sh",
+    "type": "lxc",
+    "type_id": "nm9bra8mzye2scg",
+    "categories": [
+      "scriptcat00022"
+    ],
+    "category_names": [
+      "Bots & ChatOps"
+    ],
+    "notes": [],
+    "port": 64738,
+    "website": "https://www.mumble.info/",
+    "documentation": "https://www.mumble.info/documentation/administration/",
+    "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/mumble.webp",
+    "updateable": true,
+    "privileged": false,
+    "has_arm": true,
+    "is_dev": true,
+    "execute_in": [
+      "lxc"
+    ],
+    "config_path": "",
+    "default_credentials": {
+      "username": "SuperUser",
+      "password": "Generated during installation"
+    },
+    "os": ""
+  },
+  {
     "name": "MusicSeerr",
     "slug": "musicseerr",
     "desc": "MusicSeerr is a self-hosted music request and discovery app for Lidarr. Search MusicBrainz, request albums, stream from Jellyfin, Navidrome, Plex, or local files, and scrobble to ListenBrainz and Last.fm.",
@@ -11197,6 +11325,40 @@
     "os": ""
   },
   {
+    "name": "Obsidian LiveSync",
+    "slug": "obsidian-livesync",
+    "desc": "A CouchDB server configured for synchronising Obsidian vaults with the Self-hosted LiveSync plugin.",
+    "script": "ct/obsidian-livesync.sh",
+    "script_url": "https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/obsidian-livesync.sh",
+    "script_url_mirror": "https://git.community-scripts.org/community-scripts/ProxmoxVE/raw/branch/main/ct/obsidian-livesync.sh",
+    "type": "lxc",
+    "type_id": "nm9bra8mzye2scg",
+    "categories": [
+      "scriptcat00012"
+    ],
+    "category_names": [
+      "Documents & Notes"
+    ],
+    "notes": [],
+    "port": 5984,
+    "website": "https://github.com/vrtmrz/obsidian-livesync",
+    "documentation": "https://github.com/vrtmrz/obsidian-livesync/blob/main/docs/setup_own_server.md",
+    "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/obsidian.webp",
+    "updateable": true,
+    "privileged": false,
+    "has_arm": false,
+    "is_dev": true,
+    "execute_in": [
+      "lxc"
+    ],
+    "config_path": "",
+    "default_credentials": {
+      "username": "admin",
+      "password": ""
+    },
+    "os": ""
+  },
+  {
     "name": "OctoPrint",
     "slug": "octoprint",
     "desc": "OctoPrint is a free and open-source web-based 3D printer control software that allows you to remotely control and monitor your 3D printer from a web interface. It was designed to be compatible with a wide range of 3D printers.",
@@ -12097,12 +12259,12 @@
     "notes": [],
     "port": 8086,
     "website": "https://github.com/DioCrafts/OxiCloud",
-    "documentation": "https://github.com/DioCrafts/OxiCloud/tree/main/doc",
+    "documentation": "https://atalayalabs.github.io/OxiCloud/guide/",
     "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/oxicloud.webp",
     "updateable": true,
     "privileged": false,
     "has_arm": false,
-    "is_dev": true,
+    "is_dev": false,
     "execute_in": [
       "lxc"
     ],
