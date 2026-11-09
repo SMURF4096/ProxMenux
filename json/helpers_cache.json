@@ -23299,6 +23299,10 @@
       "pve"
     ],
     "config_path": "",
+    "default_credentials": {
+      "username": "admin@example.com",
+      "password": "cat ~/wikijs.creds"
+    },
     "os": ""
   },
   {
